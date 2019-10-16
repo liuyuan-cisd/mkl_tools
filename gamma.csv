@@ -1,2 +1,2 @@
-first_2-4mer.csv,first_3mer.csv,first_KNN.csv,first_pseDNC.csv,first_PseEIIP.csv,first_RFH.csv
-4,4,0.03125,0.070153878,4,0.03125
+first_pseDNC.csv,first_PseEIIP.csv,first_RFH.csv
+0.070153878,4,0.03125
