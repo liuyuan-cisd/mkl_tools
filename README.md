@@ -1,7 +1,7 @@
 # mkl_tools
 多核学习工具箱
 ## 主要是使用合成核方法进行多核学习
-# 使用说明
+## 使用说明
 该软件包依赖 python2.7,sklearn,numpy,cvxopt 
 
 将特征文件放入feature文件夹（没有数量限制）
@@ -10,9 +10,9 @@
 
 gamma.csv中共两行，第一行填写特征文件的文件名，第二行填写相应特征对应的rbf核的gamma参数
 
-# 运行：
+## 运行：
 
-# 平均权重合成核
+## 平均权重合成核
 
   python averageMKL_svm.py [-cv] [-l]
   
@@ -24,7 +24,7 @@ gamma.csv中共两行，第一行填写特征文件的文件名，第二行填�
   
   非平衡数据集需要自己准备一个一维的标签文件
 
-# EasyMKL权重合成核：
+## EasyMKL权重合成核：
   
   python easyMKL_svm.py [-cv] [-l]
   
