@@ -13,8 +13,8 @@ gamma.csv中共两行，第一行填写特征文件的文件名，第二行填�
 # 运行：
 
 平均权重合成核
-  python averageMKL_svm.py [-cv] [-l] 
 
+  python averageMKL_svm.py [-cv] [-l]
   两个参数都是可选参数
   -cv 交叉验证的折数，默认为5
   -l 如果为平衡数据集，且前一半为正例，后一半为反例，不需要此参数。
