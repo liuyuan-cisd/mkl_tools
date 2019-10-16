@@ -12,7 +12,7 @@ gamma.csv中共两行，第一行填写特征文件的文件名，第二行填�
 
 # 运行：
 
-平均权重合成核
+# 平均权重合成核
 
   python averageMKL_svm.py [-cv] [-l]
   
@@ -24,7 +24,7 @@ gamma.csv中共两行，第一行填写特征文件的文件名，第二行填�
   
   非平衡数据集需要自己准备一个一维的标签文件
 
-EasyMKL权重合成核：
+# EasyMKL权重合成核：
   
   python easyMKL_svm.py [-cv] [-l]
   
