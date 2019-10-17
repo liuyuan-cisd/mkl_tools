@@ -29,3 +29,6 @@ gamma.csv中共两行，第一行填写特征文件的文件名，第二行填�
   python easyMKL_svm.py [-cv] [-l]
   
   用法同上
+
+
+程序运行完会生成一个csv的结果文件，第一列为参数c的值，第二列为acc 第三列为auc_roc
